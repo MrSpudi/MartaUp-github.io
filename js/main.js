@@ -10,7 +10,9 @@
 
 $('.menu__btn').on('click', function(){
   $('.menu__list').slideToggle();
+  document.querySelector('.menu__btn').classList.toggle('burger-active')
 });
 
-a
+
+
 });
